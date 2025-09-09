@@ -50,14 +50,25 @@ tbody{
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+    height: 50%;
+}
+
+.imageFind{
+    display: flex;
     gap: 1rem;
-    width: 30%;
 }
 
 .find{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.details{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .image-cell{
