@@ -36,8 +36,13 @@ $galeri  = new GaleriView()
                 </tbody>
             </table>
         </div>
-        <?php $galeri->find() ?>
-        <img src="ht" alt="">
+        <div class="tableFind">
+            <div>
+                <h2>Show Galeri (id)</h2>
+            </div>
+            <?php $galeri->find() ?>
+        </div>
+      
     </div>
 </body>
 
