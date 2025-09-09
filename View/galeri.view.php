@@ -6,6 +6,7 @@
             foreach($galeries as $galeri){
                 ?>
                     <tr>
+                        <td><?php echo $galeri['id'] ?></td>
                         <td><?php echo $galeri['nama_foto'] ?></td>
                         <td><?php echo $galeri['informasi_foto'] ?></td>
                         <td><?php echo $galeri['tanggal_foto'] ?></td>
@@ -24,6 +25,7 @@
             foreach($galeries as $galeri){
                 ?>
                     <tr>
+                        <td><?php echo $galeri['id'] ?></td>
                         <td><?php echo $galeri['nama_foto'] ?></td>
                         <td><?php echo $galeri['informasi_foto'] ?></td>
                         <td><?php echo $galeri['tanggal_foto'] ?></td>
